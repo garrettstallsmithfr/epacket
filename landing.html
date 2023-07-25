@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, intial-scale=1.0">
+  <title>E-Packet</title>
+
+
+  <link rel="icon" type="image/x-icon" href="assets\Logo-1.png">
+
+</head>
+
+<!--
+  Colors:
+
+  White: #fff
+  Grey: #777
+  Dark Grey: #292929
+  Black: black
+  Red: #d92231
+-->
+
+<link rel="stylesheet" href="..\landing.css">
+
+<script>
+  // Function to cause popup on page load
+  function PopUp(){
+    document.getElementById('ac-wrapper').style.display="none"; 
+  }
+
+
+  // Function to simulate a wait time
+  // Every two seconds it adds or subtracts 1 from the current wait time
+  // Domain: [0, oo)
+  function currentWaitTime() {
+    setInterval(function() {
+      let waitTime = parseInt(document.getElementById("cwt").innerHTML) <= 0 ? 30 : parseInt(document.getElementById("cwt").innerHTML);              
+      waitTime += Math.random() <= 0.5 ? 1 : -1;
+
+      document.getElementById("cwt").innerHTML = waitTime + " seconds";
+    }, 2000);
+  }
+
+</script>
+
+
+<!-- Pop up div-->
+<div id="ac-wrapper">
+  <div id="popup">
+      <center>
+          <img src="../assets/\warning.png" alt="Caution" class="logo">
+          <img src="../assets/\FRLogo.png" alt="Fleet Response Logo" class="logo">
+          <img src="../assets/\warning.png" alt="Caution" class="logo">
+          <br><br>
+          <h1>If anybody is injured, or needs immediate assistance, please stop and call 911!</h2>
+          <br>
+          <h1>Once you are in a <u>safe location</u> click below to continue.</h1>
+          <br><br>
+          <input type="submit" name="submit" value="I'm safe!" onClick="PopUp()" class="popup" style="font-size:30px;">
+      </center>
+  </div>
+</div>
+
+<body onload="currentWaitTime()">
+  <main>
+    <main>
+
+      <p class="expl red">
+        <a href="https://www.fleetresponse.com/" class="redir">
+        <img src="../assets/Logo-1.png" alt="Fleet Response Logo" class="banner" style="background-color: white; padding:20px;">
+        </a>
+      </p>
+
+    
+      <article>
+        <div class="block red" id="blink">
+          <b><p class="block" style="font-size: 40px;">Call Center Hotline</p></b>
+
+          <b><p class="block" style="background-color: #d92231; padding:10px">
+            &nbsp<u><a class="redir" href="tel:+1.800.338.0619" style="font-size: 40px; padding:10px; border-radius:0%;">800.338.0619</a></u>&nbsp
+          </p></b>
+
+          <p class="block">Current wait time:</p>
+
+          <!-- currentWaitTime() is called on this p tag -->
+          <b><p class="block" style="font-size: 30px;" id="cwt">30 seconds</p></b>
+        </div>
+
+        <div class="block grey">
+          <b><p class="block" style="font-size: 30px;">Fleet Response Mobile</p></b>
+          <p class="block" style="font-size:20px">Using Fleet Response's App, you can report a vehicle accident, request roadside assistance, and much more!</p>
+
+          <a class="redir" target=_blank href="https://itunes.apple.com/us/app/fleet-response-mobile/id1412148856?mt=8">
+            <img class="redir" src="../assets/appstore.jpeg">
+          </a>
+          <a class="redir" target="_blank" href="https://play.google.com/store/apps/details?id=com.Fleet.FleetMobileClaims">
+            <img class="redir" src="../assets/gplay.jpeg">
+          </a>
+        </div>
+      </article>
+
+        <b>
+          <p class="expl red">
+            <img src="../assets/crash.png" alt="Crash" class="logo" style="height:250px;">
+            <br><br>
+            What to do in case of an accident?
+          </p>
+        </b>
+
+        <article>
+          <div class="block grey" style="height: auto;">
+            <p class="block">
+              Notify police and obtain accident report
+            </p>
+          </div>
+    
+          <div class="block grey" style="height: auto;">
+            <p class="block">
+              Seek medical help for injured parties
+            </p>
+          </div>
+        </article>
+
+        <article>
+          <div class="block grey" style="height: auto;">
+            <p class="block">
+              Do <u>not</u> admit fault
+            </p>
+          </div>
+
+          <div class="block grey" style="height: auto;">
+            <p class="block">
+              Call us at <u><a class="redir" href="tel:+1.800.338.0619" style="padding:5px; border-radius:0%;">800.338.0619</a></u>
+              to file a claim
+            </p>
+          </div>
+        </article>
+        
+        <article>
+          <div class="block grey" style="height: auto;">
+            <p class="block">
+              Obtain information from any witness and/or injured parties
+            </p>
+          </div>
+    
+          <div class="block grey" style="height: auto;">
+            <p class="block">
+              Obtain driver and insurance information from other parties involved
+            </p>
+          </div>
+        </article>
+
+        <article>
+          <div class="block grey" style="height: auto;">
+            <p class="block">
+              Fleet Response can arrange a tow for your vehicle, repair any damage, provide rental replacement, and glass service
+            </p>
+          </div>
+
+          <!-- Old panphlet div
+          <div class="block red">
+            <a class="redir" target=_blank href="assets\Sample Accident Packet (2).pdf">
+              <b><p class="block">Click here to view a PDF pamphlet!</p></b>
+            </a>
+            <a class="redir" target=_blank href="assets\Sample Accident Packet (2).pdf">
+              <img class="redir" src="../assets/pamphlet.png" style="height:250px; width:250px;">
+            </a>
+          </div>
+          -->
+
+          <div class="block red" style="height:auto">
+            <b>            
+              <p class="block">
+              When in doubt, call us!
+              </p>
+            </b>
+          </div>
+          </article>
+
+            <p class="expl red" id="blink">
+              <b style="font-size:40px;">Remember to call us at <u><a class="redir" href="tel:+1.800.338.0619" style="font-size:40px; padding:10px; border-radius:0%;">800.338.0619</a></u></b>
+              <br><br>
+              if you've been in an accident!
+            </p>
+          <br>
+
+          <a class="redir" target=_blank href="https://www.fleetresponse.com/">
+            <p class="expl grey">
+              <b>Click here to check out our website!</b>
+            </p>
+          </a>
+ 
+  </main>
+  <br>
+</body>
+
+<footer>
+  <p>&copy; 2023 Fleet Response. All rights reserved.</p>
+</footer>
+</html>

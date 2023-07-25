@@ -1,0 +1,49 @@
+Scrum Master
+- Coaching team members in self management
+- Remove impediments to progress
+- Apply definition of "done"
+- Facilitate stakeholder collaboration
+- Leading, training, coaching
+- Planning and advising Scrum sessions
+
+
+Product Owner
+- Developing and explicitly communicating the product goal
+- Clearly communicate backlog items
+- Ordering backlog itmes
+- Define scope
+
+
+Developers
+- Creating a plan for the Sprint, the Sprint backlog
+- Holding each other accountable
+
+
+
+Agenda
+- Define roles
+- Elaborate on those roles
+- Explain sprint
+- Set goals for first sprint
+- Project name
+
+- Talk to call center to see optimal question order
+- Fleet response css packages
+
+
+Sprint
+- Why is this Sprint valuable?
+- What can be done in this Sprint?
+- How will the chosen work get done?
+
+
+- Finalize the outline central idea of moving on from there
+- How to get git version control? Ask other devs
+- Ask other devs about plumbing, backend
+
+
+- Schedule meeting with internal IT guys
+- Get form stuff organized
+X Get everybody on VS code
+
+- Meeting tuesday every week

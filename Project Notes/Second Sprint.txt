@@ -1,0 +1,28 @@
+Goals:
+- Figure out disclaimer wording
+
+
+
+Flow:
+1.) Scan qr code
+	- Opens web browser
+
+2.) Disclaimer to call 911 if unsafe
+	- Have to press button to confirm safe location
+
+3.) Call fleet response with number button
+	- Button to call fr
+
+4.) Mobile app button
+	- Smaller than call button
+	- Make call button main focus
+
+5.) Panflet information
+	- Claim info
+
+6.) Another call button
+
+
+Notes:
+- Push users to call
+- Informational

@@ -1,0 +1,66 @@
+Need for Development:
+- Local Admin Priveleges (installing compilers)
+- A site to host
+- Database keys
+- Version control
+- An explanation of the database system by IT team
+
+Want for Development:
+- Schedule meeting with internal IT team
+- Fleet Response css packages
+
+---------------------------------------------------------------------------------
+
+Why we do not want to pursue the Chatbot:
+- Outside of our skillset
+	* We only have two months to work on this and none of us have worked with a chat bot before
+	* Most of that time would be spent learning the correct approach, not making a quality product
+
+- Complex
+	* The chatbot must be able to handle all text thrown at it
+	* As quality increases complexity increases
+	* Predictive text is too expensive, rule based is too hard to create in two months
+
+- The landing page is within grasp
+	* We have the technical skillset
+	* We believe we can deliver a quality produce in two months
+
+
+----------------------------------------------------------------------------------
+
+Goal with Landing Page:
+- Create a tool to help automate a part of the call center's job.
+
+- Drivers scan a qr code sticker and are brought to webpage in their browser
+- They are given a form to fill in information about their crash
+
+- In theory, this works as a tool for the call center to do screening faster
+	* If somebody uses the tool, the call center could reduce time asking simple questions
+
+
+-----------------------------------------------------------------------------------
+
+Notes:
+
+- JSONify query. Load a bunch of variable into a string and then parse that string to only use one query
+- Use buzzwords to break their brains
+- Push driver to send information
+- Don't want to atuomatically create a claim
+- Push driver to mobile app
+- Click to call
+- Return on investment for stickers versus packet printing
+
+- No claim creation
+
+
+call / mobile app
+mobile app mobile compatile web page
+
+just a guide to the next step
+more informational
+
+web version of app
+GET PEOPLE ON THE PHONE
+
+Gives driver phone number of call center employee dedicated to company
+
