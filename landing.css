@@ -35,7 +35,7 @@ main {
 }
 
 img.logo {
-    height: 140px;
+    height: 200px;
     width:auto;
     background-color: #fff;
 
@@ -243,7 +243,7 @@ input[type="text"] {
 
 
 #popup {
-    padding: 20px;
+    padding: 40px;
     
     
     height: auto;
@@ -268,6 +268,10 @@ input[type="text"] {
     margin: auto;
     top: 2.5%;
 
+}
+
+h1.popup {
+    font-size:42px;
 }
 
 input.popup {
