@@ -304,7 +304,7 @@ input.popup {
 }
 
 .redir:active {
-    background-color: #d92231;
+    background-color: #292929;
 
     border-radius: 20px;
     padding:2px;
@@ -312,3 +312,4 @@ input.popup {
 
 
 }
+
