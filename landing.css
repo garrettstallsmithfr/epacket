@@ -100,7 +100,7 @@ div.twothirdblock {
 
 div.wideblock {
     height: auto;
-    width: 840px;
+    width: 860px;
 
     border-radius: 20px;
     margin:auto;
@@ -300,7 +300,6 @@ input.popup {
 
 .redir:hover {
     background-color: #777;
-
 }
 
 .redir:active {
